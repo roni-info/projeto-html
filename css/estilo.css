@@ -22,14 +22,6 @@ article{
     border: 1px solid #ccc;
 }
 
-@media(min-width: 800px){
-    article{
-        width: 30%;
-        float: left;
-        margin-right: 5%;
-    }
-}
-
 article:last-child{
     margin-right: 0;
 }
