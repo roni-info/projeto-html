@@ -5,57 +5,67 @@
     <meta charset="UTF-8">
     <title>Projeto Curso FrontEnd Essential</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
 </head>
 
 <body>
-    <header>
+    <header class="layout-cabecalho">
         <div class="container">
             <img src="img/cabecalho.png" width="80" height="80" alt="www">
         </div>
     </header>
 
-    <div id="planos">
+    <div class="layout-planos">
         <div class="container">
-            <article>
-                <h2>Padrão</h2>
-                <div>89,90 /mês</div>
-                <ul>
-                    <li><strong>200 Mbps</strong> de internet</li>
-                    <li>Fibra Ótica</li>
-                    <li>Instalação R$100,00</li>
-                    <li>Primeiro Mês Gratuito</li>
-                </ul>
-                <footer>
-                    <a class="botao" href="assine.html">Assinar</a>
-                </footer>
-            </article>
-            <article>
-                <h2>Intermediário</h2>
-                <div>119,90 /mês</div>
-                <ul>
-                    <li><strong>400 Mbps</strong> de internet</li>
-                    <li>Fibra Ótica</li>
-                    <li>Instalação R$50,00</li>
-                    <li>Primeiro Mês Gratuito</li>
-                </ul>
-                <footer>
-                    <a class="botao" href="assine.html">Assinar</a>
-                </footer>
-            </article>
-            <article style="margin-right: 0 ">
-                <h2>Avançado</h2>
-                <div>200,00 /mês</div>
-                <ul>
-                    <li><strong>800 Mbps</strong> de internet</li>
-                    <li>Fibra Ótica</li>
-                    <li>Instalação R$0,00</li>
-                    <li>Primeiro Mês Gratuito</li>
-                </ul>
-                <footer>
-                    <a class="botao" href="assine.html">Assinar</a>
-                </footer>
-            </article>
+            <div class="row">
+                <div class="col-sm-4">
+                    <article class="plano">
+                        <h2 class="plano__cabecalho">Padrão</h2>
+                        <div class="plano__preco">89,90 /mês</div>
+                        <ul class="plano__caracteristicas">
+                            <li><strong>200 Mbps</strong> de internet</li>
+                            <li>Fibra Ótica</li>
+                            <li>Instalação R$100,00</li>
+                            <li>Primeiro Mês Gratuito</li>
+                        </ul>
+                        <footer class="plano__rodape">
+                            <a class="botao--assinar" href="assine.html">Assinar</a>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="plano">
+                        <h2 class="plano__cabecalho">Intermediário</h2>
+                        <div class="plano__preco">119,90 /mês</div>
+                        <ul class="plano__caracteristicas">
+                            <li><strong>400 Mbps</strong> de internet</li>
+                            <li>Fibra Ótica</li>
+                            <li>Instalação R$50,00</li>
+                            <li>Primeiro Mês Gratuito</li>
+                        </ul>
+                        <footer class="plano__rodape">
+                            <a class="botao--assinar" href="assine.html">Assinar</a>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="plano">
+                        <h2 class="plano__cabecalho">Avançado</h2>
+                        <div class="plano__preco">200,00 /mês</div>
+                        <ul class="plano__caracteristicas">
+                            <li><strong>800 Mbps</strong> de internet</li>
+                            <li>Fibra Ótica</li>
+                            <li>Instalação R$0,00</li>
+                            <li>Primeiro Mês Gratuito</li>
+                        </ul>
+                        <footer class="plano__rodape">
+                            <a class="botao--assinar" href="assine.html">Assinar</a>
+                        </footer>
+                    </article>
+                </div>
+            </div>
         </div>
     </div>
 
