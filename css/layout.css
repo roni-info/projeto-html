@@ -1,10 +1,31 @@
 .layout-cabecalho{
     height: 80px;
     border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    }
+
+.layout-cabecalho--home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
+
 
 .layout-planos{
     padding: 80px 0;
+}
+
+.layout-principal{
+    padding: 80px;
+    padding-top: 150px;
+    background-color: green;
+}
+
+.layout-depoimento{
+    padding: 80px 0;
+    background-color: #e7e7e7;
 }
 
 /* Com o sistema de grid não precisa mais utilizar o clear
@@ -14,3 +35,11 @@
     clear: both;
 }
 */
+
+.layout-rodape{
+    padding: 40px 0;
+    background-color: #484848;
+
+    color: #fff;
+    text-align: center;
+}
